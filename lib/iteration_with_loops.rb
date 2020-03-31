@@ -8,7 +8,7 @@ def find_even_values(src)
     
     inner_count = 0
     while inner_count < src[count].length do
-      if src[count] % == 0
+      if src[count] % 2 == 0
         p src[count]
       end
       inner_count += 1
